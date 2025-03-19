@@ -9,7 +9,10 @@ Replace this with your actual assignment content.
 # Write your code for Task 1 below:
 # TODO: Write a while loop that counts by 2s from 2 to 50 and prints each number
 
-print("Task 1 complete!\n")
+number = 2
+while number <= 50:
+    print(number)
+    number += 2
 
 # Task 2: Print a 5x5 grid of # symbols using nested while loops
 # Write your code for Task 2 below:
@@ -19,4 +22,10 @@ print("Task 1 complete!\n")
 #remember to print without a new line use print("message", end="")
 
 
-print("Task 2 complete!")
+grid = 1
+while grid <= 5:
+    print("#####")
+    grid += 1
+
+print("message", end="")
+
